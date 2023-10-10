@@ -10,6 +10,14 @@
 		85125E885EB452447DB1E265 /* Pods_FirebaseDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B1D328C19DEEF7CD7181F3 /* Pods_FirebaseDB.framework */; };
 		F51C8D6D2ACC76FE004039C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F51C8D6C2ACC76FE004039C7 /* GoogleService-Info.plist */; };
 		F585CE9F2ACEBD3A001181B7 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585CE9E2ACEBD3A001181B7 /* ProfileController.swift */; };
+		F585CEDB2AD52570001181B7 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585CEDA2AD52570001181B7 /* GradientButton.swift */; };
+		F585CEDD2AD5259D001181B7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585CEDC2AD5259D001181B7 /* ListViewController.swift */; };
+		F585CEDF2AD525D3001181B7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585CEDE2AD525D3001181B7 /* SettingsViewController.swift */; };
+		F585CEE12AD52625001181B7 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585CEE02AD52625001181B7 /* ListCell.swift */; };
+		F585CEE32AD526B4001181B7 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585CEE22AD526B4001181B7 /* Environment.swift */; };
+		F585CEE62AD527D5001181B7 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585CEE52AD527D5001181B7 /* ListModel.swift */; };
+		F585CEE82AD52E97001181B7 /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585CEE72AD52E97001181B7 /* InputField.swift */; };
+		F585CEEA2AD57391001181B7 /* InputLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585CEE92AD57391001181B7 /* InputLabel.swift */; };
 		F5A47EFE2AC5DBBC00570FB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A47EFD2AC5DBBC00570FB5 /* AppDelegate.swift */; };
 		F5A47F002AC5DBBC00570FB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A47EFF2AC5DBBC00570FB5 /* SceneDelegate.swift */; };
 		F5A47F022AC5DBBC00570FB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A47F012AC5DBBC00570FB5 /* ViewController.swift */; };
@@ -24,6 +32,14 @@
 		D7D11C0A219AFFCF1E9DC527 /* Pods-FirebaseDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDB.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseDB/Pods-FirebaseDB.debug.xcconfig"; sourceTree = "<group>"; };
 		F51C8D6C2ACC76FE004039C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F585CE9E2ACEBD3A001181B7 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		F585CEDA2AD52570001181B7 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		F585CEDC2AD5259D001181B7 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F585CEDE2AD525D3001181B7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F585CEE02AD52625001181B7 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		F585CEE22AD526B4001181B7 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		F585CEE52AD527D5001181B7 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		F585CEE72AD52E97001181B7 /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		F585CEE92AD57391001181B7 /* InputLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLabel.swift; sourceTree = "<group>"; };
 		F5A47EFA2AC5DBBC00570FB5 /* FirebaseDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A47EFD2AC5DBBC00570FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5A47EFF2AC5DBBC00570FB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +79,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F585CED92AD5253B001181B7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F585CEDA2AD52570001181B7 /* GradientButton.swift */,
+				F585CEE72AD52E97001181B7 /* InputField.swift */,
+				F585CEE92AD57391001181B7 /* InputLabel.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F585CEE42AD527AF001181B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F585CEE52AD527D5001181B7 /* ListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F5A47EF12AC5DBBC00570FB5 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +118,8 @@
 		F5A47EFC2AC5DBBC00570FB5 /* FirebaseDB */ = {
 			isa = PBXGroup;
 			children = (
+				F585CEE42AD527AF001181B7 /* Models */,
+				F585CED92AD5253B001181B7 /* UI */,
 				F5A47EFD2AC5DBBC00570FB5 /* AppDelegate.swift */,
 				F5A47EFF2AC5DBBC00570FB5 /* SceneDelegate.swift */,
 				F5A47F012AC5DBBC00570FB5 /* ViewController.swift */,
@@ -93,6 +129,10 @@
 				F51C8D6C2ACC76FE004039C7 /* GoogleService-Info.plist */,
 				F5A47F0B2AC5DBBE00570FB5 /* Info.plist */,
 				F585CE9E2ACEBD3A001181B7 /* ProfileController.swift */,
+				F585CEDC2AD5259D001181B7 /* ListViewController.swift */,
+				F585CEDE2AD525D3001181B7 /* SettingsViewController.swift */,
+				F585CEE02AD52625001181B7 /* ListCell.swift */,
+				F585CEE22AD526B4001181B7 /* Environment.swift */,
 			);
 			path = FirebaseDB;
 			sourceTree = "<group>";
@@ -213,10 +253,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F585CEDB2AD52570001181B7 /* GradientButton.swift in Sources */,
+				F585CEE82AD52E97001181B7 /* InputField.swift in Sources */,
 				F5A47F022AC5DBBC00570FB5 /* ViewController.swift in Sources */,
+				F585CEDF2AD525D3001181B7 /* SettingsViewController.swift in Sources */,
+				F585CEDD2AD5259D001181B7 /* ListViewController.swift in Sources */,
+				F585CEE32AD526B4001181B7 /* Environment.swift in Sources */,
 				F5A47EFE2AC5DBBC00570FB5 /* AppDelegate.swift in Sources */,
+				F585CEEA2AD57391001181B7 /* InputLabel.swift in Sources */,
+				F585CEE12AD52625001181B7 /* ListCell.swift in Sources */,
 				F5A47F002AC5DBBC00570FB5 /* SceneDelegate.swift in Sources */,
 				F585CE9F2ACEBD3A001181B7 /* ProfileController.swift in Sources */,
+				F585CEE62AD527D5001181B7 /* ListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
